@@ -14,7 +14,7 @@ function Button({
 }) {
   const finalClassName = className(
     rest.className,
-    "flex gap-1 flex-row items-center px-3 py-1.5",
+    "flex flex-row justify-center gap-1 items-center px-3 py-1.5",
     {
       "bg-sky-400 border-sky-600 hover:bg-sky-300": primary,
       "bg-cyan-400 border-cyan-600 hover:bg-cyan-300": secondary,
